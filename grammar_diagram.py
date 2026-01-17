@@ -2,6 +2,7 @@ import json
 import os
 from graphviz import Digraph
 
+# Class
 class JavaneseGrammarChecker:
     def __init__(self, db_file):
         self.tokens = {}
