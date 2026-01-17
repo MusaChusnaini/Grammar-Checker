@@ -1,0 +1,33 @@
+// Javanese Parse Tree
+digraph {
+	node [fontname=Arial height=0.5 shape=box style=rounded]
+	root [label="Ukara (Kalimat)"]
+	role_0 [label="Jejer
+(Subject)"]
+	cat_0 [label="Tembung Aran (Kata Benda)"]
+	word_0 [label="\"pakdhe\""]
+	root -> role_0
+	role_0 -> cat_0
+	cat_0 -> word_0
+	role_1 [label="Wasesa
+(Predikat)"]
+	cat_1 [label="Tembung Kriya (Kata Kerja)"]
+	word_1 [label="\"mlayu\""]
+	root -> role_1
+	role_1 -> cat_1
+	cat_1 -> word_1
+	role_2 [label="Katrangan
+(Keterangan)"]
+	cat_2 [label="Tembung Panyambung (Konjungsi)"]
+	word_2 [label="\"karo\""]
+	root -> role_2
+	role_2 -> cat_2
+	cat_2 -> word_2
+	role_3 [label="Jejer
+(Subject)"]
+	cat_3 [label="Tembung Sesulih (Kata Ganti)"]
+	word_3 [label="\"aku\""]
+	root -> role_3
+	role_3 -> cat_3
+	cat_3 -> word_3
+}

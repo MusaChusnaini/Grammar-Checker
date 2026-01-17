@@ -4,8 +4,7 @@ import os
 class JavaneseGrammarChecker:
     def __init__(self, db_file):
         self.tokens = {}
-        self.phrases = {}
-        
+        self.phrases = {} 
         
         self.valid_rules = (
             ('S', 'P'),             
